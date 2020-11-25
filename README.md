@@ -10,12 +10,18 @@ of the type definitions. The existing format specifies the original concept when
 built. Modifying GMath/GMath_defs.h file is also allowed.
 
 ## Recommended Modifications
-GMATH_TYPE_PRECISION (GMath/GMath_defs.h) - Can be modified to change the default type of all Matrices, Quartenions and Vectors. It is by default set to float.
-MatrixC, MatrixSqC (GMath.h) - Refers to Column Major Matrices
-MatrixR, MatrixSqR (GMath.h) - Refers to Row Major Matrices
-Matrix, MatrixSq (GMath.h) - Selects between Row Major and Column Major as default. NOTE: Ensure both Matrix and MatrixSq use same Major.
-Vector, Vector4, Vector3, Vector2 (GMath.h) - Refers to Vectors and their type
-Quartenion (GMath.h) - Refers to Quartenions and their type
+### GMATH_TYPE_PRECISION (GMath/GMath_defs.h)
+Can be modified to change the default type of all Matrices, Quartenions and Vectors. It is by default set to float.
+### MatrixC, MatrixSqC (GMath.h)
+Refers to Column Major Matrices
+### MatrixR, MatrixSqR (GMath.h)
+Refers to Row Major Matrices
+### Matrix, MatrixSq (GMath.h)
+Selects between Row Major and Column Major as default. NOTE: Ensure both Matrix and MatrixSq use same Major.
+### Vector, Vector4, Vector3, Vector2 (GMath.h)
+Refers to Vectors and their type
+### Quartenion (GMath.h)
+Refers to Quartenions and their type
 
 # License
 GMath is licensed under the MIT open-source License [https://opensource.org/licenses/MIT]
