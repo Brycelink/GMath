@@ -27,12 +27,16 @@ Refers to Quartenions and their type
 ```c
 GMath::MatrixSq<4> m = {1, 2, 3, 4, 5, 6, 7, 8, 553, 13, 22, 16, 17, 9, 76, 33};
 //GMath::Matrix< 4, 4> m = {1, 2, 3, 4, 5, 6, 7, 8, 553, 13, 22, 16, 17, 9, 76, 33};
+
 GMath::Matrix<4> n(1);
 GMath::Matrix<4> result;
+
 result = m.Multiply(n);
 //result = m*n;
+
 result = m.Add(n);
 //result = m+n;
+
 result = m.Subtract(n);
 //result = m-n;
 ```
