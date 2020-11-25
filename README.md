@@ -23,7 +23,7 @@ Refers to Vectors and their type
 ### Quartenion (GMath.h)
 Refers to Quartenions and their type
 
-#Example
+## Example
 ```c
 GMath::MatrixSq<4> m = {1, 2, 3, 4, 5, 6, 7, 8, 553, 13, 22, 16, 17, 9, 76, 33};
 //GMath::Matrix< 4, 4> m = {1, 2, 3, 4, 5, 6, 7, 8, 553, 13, 22, 16, 17, 9, 76, 33};
