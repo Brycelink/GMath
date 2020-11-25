@@ -7,7 +7,7 @@ It's default type however, is floating point values.
 GMath only requires you to utilize the GMath.h header file to access all other resources of GMath.
 As noted in the GMath.h header file, one may modify the GMath.h file to suite the naming convention
 of the type definitions. The existing format specifies the original concept when the library was being
-built. Modifying GMath/GMath_defs.h file is also allowed.
+built.
 
 ## Recommended Modifications
 ### GMATH_TYPE_PRECISION (GMath/GMath_defs.h)
